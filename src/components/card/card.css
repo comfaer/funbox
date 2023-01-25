@@ -1,0 +1,207 @@
+@font-face {
+    font-family: 'Trebuchetms';
+    src: url('./trebuchetms.ttf');
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    height: 44px;
+    margin-top: 31px;
+    width: 320px;    
+}
+.header_content{
+    background-color: #f2f2f2;
+    width: 277px;
+    border-top: 4px solid #1698d9;
+    border-right: 4px solid #1698d9;
+    border-top-right-radius: 10px;
+}
+
+
+
+.header_content p{
+    font-family: 'Trebuchetms';
+    padding-top: 14px;
+    padding-left: 5px;
+    color: #666666;
+    font-size: 16px;
+}
+
+.content{
+    height: 436px;
+    width: 320px;
+    background-color: #f2f2f2;
+    border: 4px solid #1698d9;
+    border-top: none;
+    position: relative;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    overflow: hidden;
+    display: flex;
+
+}
+
+.active .content{
+    border-color: #d91667;
+}
+
+.active .circle{
+    background-color: #d91667;
+}
+
+.active .triangle{
+    background: linear-gradient(-45deg,#f2f2f2,#f2f2f2 28.5px,#d91667 0, 32px,transparent 0);
+}
+
+.active .header_content{
+    border-color: #d91667;
+}
+
+.content_text{
+    padding-left: 41px;
+}
+
+h2{
+    font-family: 'Trebuchetms' bold;
+    font-size: 48px;
+}
+h3{
+    font-family: 'Trebuchetms' bold;
+    font-size: 24px;
+}
+
+
+.content_text p{
+    font-family: 'Trebuchetms';
+    font-size: 14px;
+    color: #666666;
+}
+
+.content_text p:first-of-type{
+    padding-top: 18px;
+}
+
+img{
+    left: -23px;
+    bottom: -61px;
+    width: 370px;
+    height: auto;
+    position: absolute;
+}
+.card .active{
+    cursor: pointer;    
+}
+
+.triangle{
+    position: relative;
+    width: 43px;
+    background: linear-gradient(-45deg,#f2f2f2,#f2f2f2 28.5px,#1698d9 0, 32px,transparent 0);
+}
+
+.circle{
+    width: 80px;
+    height: 81px;
+    border-radius: 50%;
+    background-color: #1698d9;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    right: 12px;
+    bottom: 13px;
+}
+
+h4{
+    font-size: 42px;
+    font-family: 'Trebuchetms';
+    color: #f2f2f2;
+    padding-top: 7px;
+    text-align: center;
+}
+
+h5{
+    font-family: 'Trebuchetms';
+    color: #f2f2f2;
+    font-size: 21px;
+    text-align: center;
+}
+
+footer{
+    margin-top: 17px;
+    width: 320px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+footer p{
+    font-family: 'Trebuchetms';
+    color: #f2f2f2;
+    text-align: center;
+    font-size: 13px;
+}
+
+a{
+    text-decoration: none; 
+    color: #1698d9;
+    border-bottom: 1px dashed #1698d9;
+}
+
+.card:hover .circle{
+    background-color: rgb(77, 67, 190);
+}
+
+.card:hover .header_content{
+    border-color: rgb(77, 67, 190);
+}
+
+.card:hover .triangle{
+    background: linear-gradient(-45deg,#f2f2f2,#f2f2f2 28.5px,rgb(77, 67, 190) 0, 32px,transparent 0);
+}
+
+.card:hover .content{
+    border-color: rgb(77, 67, 190);
+}
+
+.active:hover .circle{
+    background-color: rgb(142, 63, 62);
+}
+
+.active:hover .header_content{
+    border-color: rgb(142, 63, 62);
+}
+
+.active:hover .triangle{
+    background: linear-gradient(-45deg,#f2f2f2,#f2f2f2 28.5px,rgb(142, 63, 62) 0, 32px,transparent 0);
+}
+
+.active:hover .content{
+    border-color: rgb(142, 63, 62);
+}
+
+.disabled .yellow_words{
+    font-family: 'Trebuchetms';
+    color: #ffff66;
+    text-align: center;
+    font-size: 13px;
+}
+
+.disabled .triangle{
+    background: linear-gradient(-45deg,#f2f2f2,#f2f2f2 28.5px,rgb(179, 179, 179) 0, 32px,transparent 0);
+}
+
+.disabled .circle{
+    background-color: #b3b3b3;
+}
+
+.disabled .content, .disabled .header_content{
+    border-color: #b3b3b3;
+}
+
+.disabled img{
+    opacity: 0.5;
+}
+
+.disabled p, .disabled h2, .disabled h3{
+    color: #b3b3b3;
+}

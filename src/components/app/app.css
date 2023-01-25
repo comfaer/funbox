@@ -1,0 +1,44 @@
+@font-face {
+    font-family: 'Exo2Thin';
+    src: url('./Exo2-Thin.ttf');
+    
+}
+
+.app{
+    background: url('./Background.jpg');
+    min-height: 100vh;
+
+}
+
+.gradient {
+    min-height: 100vh;
+    background-image: linear-gradient(rgba(16, 16, 16, 0.7) 20%, rgba(250, 249, 249, 0) 64%, rgba(16, 16, 16, 0.7) 90%);
+}
+
+.container{
+    margin: 0 auto;
+    max-width: 1120px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+h1{
+    font-family: 'Exo2Thin';
+    color: white;
+    font-size: 26px;
+    padding-top: 50px;
+    text-align: center;
+}
+
+.cards{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    /* justify-content: center; */
+    /* justify-content: space-between; */
+    justify-content: space-around;
+    
+}

@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/funbox/static/css/main.d32fb93e.css",
+    "main.js": "/funbox/static/js/main.bd9497f5.js",
+    "static/js/787.196cadc5.chunk.js": "/funbox/static/js/787.196cadc5.chunk.js",
+    "static/media/cat.png": "/funbox/static/media/cat.c5454686d3524de7e4ec.png",
+    "static/media/trebuchetms.ttf": "/funbox/static/media/trebuchetms.9f1aa0037c24e0f6935e.ttf",
+    "static/media/Exo2-Thin.ttf": "/funbox/static/media/Exo2-Thin.d2da8078a320bf47bc87.ttf",
+    "static/media/Background.jpg": "/funbox/static/media/Background.efb72f67247ef554db97.jpg",
+    "index.html": "/funbox/index.html",
+    "main.d32fb93e.css.map": "/funbox/static/css/main.d32fb93e.css.map",
+    "main.bd9497f5.js.map": "/funbox/static/js/main.bd9497f5.js.map",
+    "787.196cadc5.chunk.js.map": "/funbox/static/js/787.196cadc5.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d32fb93e.css",
+    "static/js/main.bd9497f5.js"
+  ]
+}
